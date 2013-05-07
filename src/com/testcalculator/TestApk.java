@@ -20,7 +20,6 @@ throw new RuntimeException(e);
 }
 }
 
-
 public TestApk()throws ClassNotFoundException{
 super(TARGET_PACKAGE_ID,launcherActivityClass);
 }
