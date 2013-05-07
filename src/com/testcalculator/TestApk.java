@@ -1,6 +1,5 @@
 package com.testcalculator;
 
-import com.jayway.android.robotium.solo.Solo;
 import android.test.ActivityInstrumentationTestCase2;
 import android.util.Log;
 
@@ -25,7 +24,7 @@ public TestApk()throws ClassNotFoundException{
 super(TARGET_PACKAGE_ID,launcherActivityClass);
 }
 
-private Solo solo;
+/*private Solo solo;
 
 @Override
 protected void setUp() throws Exception
@@ -51,6 +50,6 @@ assertTrue(solo.searchText("200"));
 @Override
 public void tearDown() throws Exception {
 solo.finishOpenedActivities();
-}
+}*/
 
 }
